@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/css/miestelo.css">
+    <script src="/js/animaciones.js"></script>
+    <title>CONTACTO</title>
+</head>
+<body>
+    <nav class="light blue">
+        <div>
+            <a href="#" class="brand-logo">Luz Vargas</a>
+            <a href="" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="meduim material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <li><a href="/">Inicio</a></li>
+               <li><a href="trabajo.html">Trabajo</a></li>
+               <li><a href="acercade.html">Acerca de</a></li>
+               <li><a href="contacto.html">Contacto</a></li>
+            </ul> 
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="trabajo.html">Trabajo</a></li>
+        <li><a href="acercade.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+     </ul>
+     <div class="row">
+        <form action="" class="col s12">
+            <h5 class="center-align red-text">Contactame</h5>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" placeholder="Ingrese tu Nombre" class="Validate">
+                    <label for="">Nombre</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                   <i class="material-icons prefix">contact_mail</i>
+                   <input type="text" placeholder="Ingrese tu Email" class="Validate">
+                   <label for="">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                   <i class="material-icons prefix">edit</i>
+                   <input type="text" placeholder="Escribe el Asunto" class="Validate">
+                   <label for="">Asunto</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                   <i class="material-icons prefix">chat_bubble</i>
+                  <textarea name="texarea1" id="" cols="30" rows="10" class="materialize-textarea"></textarea>
+                   <label for="">Mensaje</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align red">
+                <button type="submit"class="btn  waves-effect waves-yellow 
+                red white-text"
+                 name="">Enviar
+                 <i class="material-icons">send</i>
+                 </button>
+                 
+               </div>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col s12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15470.966712121442!2d-72.19121735141479!3d-14.209898191257667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1628099182041!5m2!1ses!2spe" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+       </div>
+
+    <script>
+        $('#textarea1').val('New Text');
+ M.textareaAutoResize($('#textarea1'));
+    </script>
+    <script>
+       document.addEventListener('DOMContentLoaded', function() {
+ var elems = document.querySelectorAll('.sidenav');
+ var instances = M.Sidenav.init(elems);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+ $('.sidenav').sidenav();
+});
+     
+ </script>
+ <!--boton flotante-->
+<div class="fixed-action-btn">
+    <a href="https://wa.link/ikepb7"
+    class="btn-floating btn-large green">
+    <i class="material-icons">message</i></a>
+    </div>
+    <!--pie de pagina-->
+    <footer>
+        <div class="row">
+            <div class="col s5"></div>
+            <div class="col s2">
+                <a href="https://web.facebook.com/"target="_blank"><img src="https://image.flaticon.com/icons/png/512/1384/1384005.png"  
+                alt=""width="30px"></a>
+                <div class="col s5"></div>
+            </div>
+            <div class="row red-text">
+                <div class="col s12 center-align">
+                  &copy;2021 por Luz Marina Vargas
+
+                </div>
+            </dicv> 
+    </footer>
+</body>
+</html>

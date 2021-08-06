@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/css/miestelo.css">
+    <script src="/js/animaciones.js"></script>
+    <title>ACERCA DE</title>
+</head>
+<body>
+    <nav class="light blue">
+        <div>
+            <a href="#" class="brand-logo">Luz Vargas</a>
+            <a href="" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="meduim material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <li><a href="/">Inicio</a></li>
+               <li><a href="trabajo.html">Trabajo</a></li>
+               <li><a href="acercade.html">Acerca de</a></li>
+               <li><a href="contacto.html">Contacto</a></li>
+            </ul> 
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="trabajo.html">Trabajo</a></li>
+        <li><a href="acercade.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+     </ul>
+     <!--perfil de acerca de-->
+     <div class="row">
+         <div class="col s12 l6">
+            <img src="/img/perfil4.png" alt="" width="600" height="2000" class="responsive-img"> 
+         </div>
+         <div class="col s12 l6 red-text">
+             <p><h2>Acerca de mi</h2></p>
+             <p><h5>Perfil Profesional</h5></p>
+             <p><h6>Estudio para se un tecnico profesional en Computacion Iformatica
+                 para el servicio como tecnico  Mi obra se centra en resultados para 
+                 Solucionar problemas de hardware y software con base en las tecnologías y
+                 normatividad vigentes.Instala componentes de la computadora configura 
+                 software para la puesta en marcha en equipo de cómputo realiza servicios 
+                 de mantenimiento preventivo y correctivo.</h6></p>
+         </div>
+     </div>
+     
+     <script>
+         $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+     </script>
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+      
+  </script>
+  <!--boton flotante-->
+<div class="fixed-action-btn">
+    <a href="https://wa.link/ikepb7"
+    class="btn-floating btn-large green">
+    <i class="material-icons">message</i></a>
+    </div>
+    <!--pie de pagina-->
+    <footer>
+        <div class="row">
+            <div class="col s5"></div>
+            <div class="col s2">
+                <a href="https://web.facebook.com/"target="_blank"><img src="https://image.flaticon.com/icons/png/512/1384/1384005.png"  
+                alt=""width="30px"></a>
+                <div class="col s5"></div>
+            </div>
+            <div class="row red-text">
+                <div class="col s12 center-align">
+                  &copy;2021 por Luz Marina Vargas
+
+                </div>
+            </dicv> 
+    </footer>
+</body>
+</html>
